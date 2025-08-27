@@ -27,7 +27,7 @@ def calculate_grs(genotypes, weights):
     # Calculate GRS for each sample
     grs_scores = {}
     for sample in genotypes.index:
-        grs = np.sum(data[sample] * data["EffectSize"])
+        grs = np.sum(data[sample] * data["Effect Size"])
         grs_scores[sample] = grs
 
     return pd.Series(grs_scores)
@@ -48,5 +48,4 @@ def main():
     print("Genetic Risk Scores saved to 'grs_scores.csv'.")
 
 
-if __name__ == "__main__":
-    main()
+main()
