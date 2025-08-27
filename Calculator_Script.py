@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 # Load genotype data and SNP weights
@@ -48,4 +49,8 @@ def main():
     print("Genetic Risk Scores saved to 'grs_scores.csv'.")
 
 
-main()
+# Plot
+def plot_grs_distribution(grs_scores, title="Genetic Risk Score Distribution"):
+    """
+    Plot distribution of genetic risk scores
+    """
