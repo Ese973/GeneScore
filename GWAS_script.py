@@ -94,7 +94,8 @@ snp_df = pd.DataFrame(rows)
 snp_df.columns.values[0] = "rsid"
 
 
-# For SNPs that have missing rsIDs we can adjust them manually
+# Identify SNPs that have missing rsIDs
+# Can adjust manually if needed
 snps_with_locations = 0
 snps_no = 0
 rsids_without_locations = []
