@@ -225,7 +225,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 
-# Train best model (Gradient Bossting accuracy: 0.989, AUC-ROC: 0.829)
+# Train best model (Gradient Boosting accuracy: 0.989, AUC-ROC: 0.829)
 best_model = GradientBoostingClassifier(n_estimators=100, random_state=11)
 
 # Final Model Training and Evaluation
