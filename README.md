@@ -21,4 +21,4 @@ Once you have your final dataframe, the pipeline will prepare your data for ML t
 ### Results Analysis 
 The pipeline will plot the most important features from your feature columns. In the provided example, the top 20 most impactful SNPs (predicted) were observed. Performance metrics from the model will also be provided. Results can be exported from the processed dataframe as a csv (or preferred format). 
 
-<div style="text-align:center"><img src<img width="2466" height="916" alt="gwas_output" src="https://github.com/user-attachments/assets/a3ce8c29-c7c0-4827-b5f5-9b1421aca6d5" /></div
+<div style="text-align:center"><img src<img width="989" height="590" alt="importance_output" src="https://github.com/user-attachments/assets/60113c57-1634-4301-a4a3-adcd9691bdf0" /></div
