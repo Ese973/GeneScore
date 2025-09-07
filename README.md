@@ -1,2 +1,11 @@
-# Genetic-Risk-Score-Caculator
-Here is a basic way to represent the Genetic Risk Score (GRS) for different single nucleotide polymorphisms (SNPs). The first input that is needed is a CSV file with your samples in the first column, your other columns are your SNPs, and the empty cells should be filled in based on the number of genotypes you have. For example if you had a recessive disease that needed 2 alleles to be active, the number in that cell would be 2 regarding the sample you are observing. The second input that is needed is another CSV file with your SNPs in your first column and your effect size for each one in the cell next to it. The effect size (beta) is obtatined from Genome-Wide Associaion Studies (GWAS) with a positive number creating higher risk and a negative number indicating lower risk. After you have the correct inputs, the script will ouput a CVS file with the GRS scores with larger numbers indicating higher risk of disease based on that SNP. GWAS information can be found from online databases, but I have supplied a very simple example in this repository. Please note this is a basic version of this tool with more complexity needed to enchance the accuracy of GRS scores and to add other information from GWAS studies. The next stage in this project is adding a visualizations and perhaps including GWAS integration.
+# GeneScore: ML-Powered Variant Prioritization
+Machine learning pipeline for prioritizing impactful genetic variants from GWAS data.
+
+
+## 🚀 Features
+
+- **SNP Impact Scoring**: Composite scoring system combining effect size, frequency, and significance
+- **Machine Learning Classification**: Random Forest model to identify high-impact variants
+- **Feature Importance Analysis**: Identify key biological factors driving predictions
+- **Visualization Tools**: Interactive plots for results interpretation
+- **Export Capabilities**: Save prioritized variants for further analysis
