@@ -22,4 +22,4 @@ Once you have your final dataframe, the pipeline will prepare your data for ML t
 
 
 ### Notes
-Please note that this was created as personal project. Refrining the pipeline in the future will include experimenting with other algorithms, updating preprocessing step to adjust for non traditional rsids, and implementing functions for easier reproducability. 
+Please note that this was created as personal project. Refining the pipeline in the future will include experimenting with other algorithms, updating preprocessing step to adjust for non traditional rsids, and implementing functions for easier reproducability. 
